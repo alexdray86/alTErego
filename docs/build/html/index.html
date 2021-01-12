@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Welcome to pyTEnrich’s documentation! &mdash; pyTEnrich 0.3 documentation</title>
+  <title>Overview of the methods &mdash; alTErego 0.3 documentation</title>
   
 
   
@@ -52,7 +52,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> pyTEnrich
+            <a href="#" class="icon icon-home"> alTErego
           
 
           
@@ -102,7 +102,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">pyTEnrich</a>
+          <a href="#">alTErego</a>
         
       </nav>
 
@@ -135,7 +135,7 @@
     
       <li><a href="#" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Welcome to pyTEnrich’s documentation!</li>
+      <li>Overview of the methods</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -154,11 +154,7 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="welcome-to-pytenrich-s-documentation">
-<h1>Welcome to pyTEnrich’s documentation!<a class="headerlink" href="#welcome-to-pytenrich-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>A code for to compute statistical enrichment of transposable elements
-on a group of bed files. Code written by Alexandre Coudray from the
-laboratory of Virology and Genetics at the EPFL in 2019.</p>
+  <img alt="_images/alTErego_logo_new.jpf" src="_images/alTErego_logo_new.jpf" />
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
@@ -167,12 +163,11 @@ laboratory of Virology and Genetics at the EPFL in 2019.</p>
 </ul>
 </div>
 <p><a class="reference external" href="https://c4science.ch/diffusion/11057">source code on github</a></p>
-</div>
 <div class="section" id="overview-of-the-methods">
 <h1>Overview of the methods<a class="headerlink" href="#overview-of-the-methods" title="Permalink to this headline">¶</a></h1>
-<p>This program aims at defining regulons of putative targets for Transcription Factors (TFs) targetting Transposable Elements (TEs) sequences. The whole method is built on the hypothesis that TEs found in close proximity of gene promoters are potentially behaving as enhancer for the genes. Using prior knowledge from ChIP-seq experiments, we know roughly what TFs are able to bind which TEs families. Then, by looking at TEs in the neighborhood of genes co-expressed with TFs, we can define TE-derived regulons.</p>
 <p>This method takes advantage of Co-Expression method from GRNBoost2 from <a class="reference external" href="https://arboreto.readthedocs.io/en/latest/">arboreto</a> as used in <a class="reference external" href="https://www.nature.com/articles/nmeth.4463">SCENIC method</a>. On top of the original method, we used a method to use TE in TSS neighborhood (+/- 50kb) using a similar approach that SCENIC uses with motifs. Using ChIP-seq enrichment of TF-&gt;TE interactions, we then prune the results to keep only regulons from known TF-&gt;TE interactions.</p>
 <img alt="_images/alTErego_design.png" src="_images/alTErego_design.png" />
+<p>This program aims at defining regulons of putative targets for Transcription Factors (TFs) targetting Transposable Elements (TEs) sequences. The whole method is built on the hypothesis that TEs found in close proximity of gene promoters are potentially behaving as enhancer for the genes. Using prior knowledge from ChIP-seq experiments, we know roughly what TFs are able to bind which TEs families. Then, by looking at TEs in the neighborhood of genes co-expressed with TFs, we can define TE-derived regulons.</p>
 </div>
 
 
@@ -188,7 +183,7 @@ laboratory of Virology and Genetics at the EPFL in 2019.</p>
 
   <div role="contentinfo">
     <p>
-        &#169; Copyright 2020, Laboratory of Virology and Genetics.
+        &#169; Copyright Coudray Alexandre, Laboratory of Virology and Genetics at EPFL.
 
     </p>
   </div>

@@ -14,8 +14,8 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'pyTEnrich'
-copyright = '2020, Laboratory of Virology and Genetics'
+project = 'alTErego'
+copyright = 'Coudray Alexandre, Laboratory of Virology and Genetics at EPFL'
 author = 'Alexandre Coudray'
 
 # The full version, including alpha/beta/rc tags
