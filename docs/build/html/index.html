@@ -162,12 +162,11 @@
 <li class="toctree-l1"><a class="reference internal" href="usage/execution.html">Execution</a></li>
 </ul>
 </div>
-<p><a class="reference external" href="https://c4science.ch/diffusion/11057">source code on github</a></p>
 <div class="section" id="overview-of-the-methods">
 <h1>Overview of the methods<a class="headerlink" href="#overview-of-the-methods" title="Permalink to this headline">¶</a></h1>
-<p>This method takes advantage of Co-Expression method from GRNBoost2 from <a class="reference external" href="https://arboreto.readthedocs.io/en/latest/">arboreto</a> as used in <a class="reference external" href="https://www.nature.com/articles/nmeth.4463">SCENIC method</a>. On top of the original method, we used a method to use TE in TSS neighborhood (+/- 50kb) using a similar approach that SCENIC uses with motifs. Using ChIP-seq enrichment of TF-&gt;TE interactions, we then prune the results to keep only regulons from known TF-&gt;TE interactions.</p>
+<p>This program aims at defining regulons of putative targets for Transcription Factors (TFs) targetting Transposable Elements (TEs) sequences. The whole method is built on the hypothesis that TEs found in close proximity of gene promoters are potentially behaving as enhancers.</p>
+<p>By taking advantage of GRNBoost2 from <a class="reference external" href="https://arboreto.readthedocs.io/en/latest/">arboreto</a>  to compute modules of co-expressed TFs and putative targets. We then used TE abundance around TSS with a similar approach that <a class="reference external" href="https://www.nature.com/articles/nmeth.4463">SCENIC method</a> uses with motifs. Using enrichment of TF-&gt;TE interactions from a large panel of ChIP-seq data, we then prune the results to keep only regulons from known TF-&gt;TE interactions.</p>
 <img alt="_images/alTErego_design.png" src="_images/alTErego_design.png" />
-<p>This program aims at defining regulons of putative targets for Transcription Factors (TFs) targetting Transposable Elements (TEs) sequences. The whole method is built on the hypothesis that TEs found in close proximity of gene promoters are potentially behaving as enhancer for the genes. Using prior knowledge from ChIP-seq experiments, we know roughly what TFs are able to bind which TEs families. Then, by looking at TEs in the neighborhood of genes co-expressed with TFs, we can define TE-derived regulons.</p>
 </div>
 
 
