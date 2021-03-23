@@ -11,7 +11,8 @@
    
    usage/installation.rst
    usage/execution.rst
-    
+   source/modules.rst
+
 Overview of the methods
 =======================
 

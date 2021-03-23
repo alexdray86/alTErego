@@ -1,7 +1,0 @@
-pyTEnrich module
-================
-
-.. automodule:: pyTEnrich
-   :members:
-   :undoc-members:
-   :show-inheritance:
